@@ -20,9 +20,18 @@ var a = 10;
 var b = 10.003;
 const ab = Number('12')
 const abc = Number('12.22')
-console.log(Number.parseFloat(ab));
-console.log(Number.parseInt(abc));
-console.log(Number.MAX_VALUE);
-console.log(Number.MIN_SAFE_INTEGER);
-console.log(1/0); Infinity
-console.log('abcd' * 1); NaN
+// console.log(Number.parseFloat(ab));
+// console.log(Number.parseInt(abc));
+// console.log(Number.MAX_VALUE);
+// console.log(Number.MIN_SAFE_INTEGER);
+// console.log(1/0); Infinity
+// console.log('abcd' * 1); NaN
+
+// ******String******
+var str = 'string';
+var str2 = "string";
+var str3 = `string`;
+var str4 = String('string');
+var str5 = String(123);
+var str6 = String(123.012);
+console.log(str4, str5);
