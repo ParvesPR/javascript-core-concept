@@ -18,8 +18,8 @@
 // ******Number******
 var a = 10;
 var b = 10.003;
-const ab = Number('12')
-const abc = Number('12.22')
+var ab = Number('12')
+var abc = Number('12.22')
 // console.log(Number.parseFloat(ab));
 // console.log(Number.parseInt(abc));
 // console.log(Number.MAX_VALUE);
@@ -35,3 +35,15 @@ var str4 = String('string');
 var str5 = String(123);
 var str6 = String(123.012);
 console.log(str4, str5);
+
+// ******Boolean******
+var bln = true;
+var bln2 = false;
+var bln3 = Boolean(true);
+var bln4 = Boolean(false);
+console.log(bln3, bln4);
+
+// ******Null & Undefined******
+var data;
+var data2 = null;
+console.log(data, data2);
