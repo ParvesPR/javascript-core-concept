@@ -20,6 +20,10 @@ var a = 10;
 var b = 10.003;
 var ab = Number('12')
 var abc = Number('12.22')
+var hex = 0xff;
+var oct =0o760;
+console.log(hex, oct)
+
 // console.log(Number.parseFloat(ab));
 // console.log(Number.parseInt(abc));
 // console.log(Number.MAX_VALUE);
