@@ -16,12 +16,22 @@ console.log(b); */
 var a = 15;
 var b = 30;
 a += b;
-console.log(a);
+// console.log(a);
 a -= b;
-console.log(a);
+// console.log(a);
 a *= b;
-console.log(a);
+// console.log(a);
 a /= b;
-console.log(a);
+// console.log(a);
 a %= b;
-console.log(a);
+// console.log(a);
+
+// Comparison Operator
+var a = '15';
+var b = 30;
+console.log(a == b);
+console.log(a != b);
+console.log(a > b);
+console.log(a < b);
+console.log(a >= b);
+console.log(a <= b);
