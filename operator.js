@@ -35,3 +35,13 @@ console.log(a > b);
 console.log(a < b);
 console.log(a >= b);
 console.log(a <= b);
+
+// TypeOf Operator 
+console.log(typeof 10);
+console.log(typeof 'abc');
+
+// Logical Operator
+/* &&
+||
+!
+*/
