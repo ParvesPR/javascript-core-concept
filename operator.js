@@ -27,9 +27,10 @@ a %= b;
 // console.log(a);
 
 // Comparison Operator
-var a = '15';
+var a = '30';
 var b = 30;
 console.log(a == b);
+console.log(a === b);
 console.log(a != b);
 console.log(a > b);
 console.log(a < b);
